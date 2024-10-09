@@ -1,0 +1,51 @@
+
+body {
+   body {
+    background-image: url('poster.jpg'); /* 这里的 'poster.jpg' 是相对于项目文件夹的路径 */
+    background-size: cover;
+    background-position: center;
+}
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#wheel {
+    position: relative;
+    text-align: center;
+}
+
+#canvas {
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#history {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
